@@ -1,0 +1,15 @@
+algoritmo expresionesAritmeticas;
+    ent a: entero; b:entero;
+    sal resultado:real;
+{Prec: a= A AND b = B}
+    resultado := a + b;
+    resultado := a - b;
+    resultado := a * b;
+    resultado := a / b;
+    resultado := a mod b;
+    resultado := a div b;
+    resultado := (a);
+    resultado := a;
+    resultado := -a;
+{Post: se han realizado todas las expresiones aritmeticas posibles}
+falgoritmo;

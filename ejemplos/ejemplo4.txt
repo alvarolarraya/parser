@@ -1,0 +1,13 @@
+algoritmo realizaIf;
+    ent i,j: entero;
+    sal i: entero;
+{Prec: n= N AND m = M AND M >= N >0}
+    si i > j ->
+        i := i+j;
+    [] i < j ->
+        i:= j;
+    [] i = j ->
+        i := i-j;
+    fsi;
+{Post: se realizan distintintas operaciones dependiendo de lo que valgan i y j}
+falgoritmo;

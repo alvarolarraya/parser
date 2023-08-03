@@ -1,0 +1,11 @@
+algoritmo realizaIf;
+    ent i,j: entero;
+    sal i: entero;
+{Prec: n= N AND m = M AND M >= N >0}
+    si (i > j) y (i = j) ->
+        i := i+j;
+    [] i < j o i <= j ->
+        i:= -(i+(j+j)*j)/i mod j div j;
+    fsi;
+{Post: se realizan distintas operaciones dependiendo de condiciones compuestas}
+falgoritmo;

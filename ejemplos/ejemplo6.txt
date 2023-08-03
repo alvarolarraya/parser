@@ -1,0 +1,12 @@
+algoritmo ejemploMientras;
+    ent i,j: entero;
+    sal i: entero;
+{Prec: n= N AND m = M AND M >= N >0}
+    mientras i < j hacer
+        i := j + i;
+        si i = j ->
+            i := i+j;
+        fsi;
+    fmientras;
+{Post: i>j}
+falgoritmo;
